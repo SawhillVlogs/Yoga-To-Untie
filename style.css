@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    padding: 2px 2px;
+    font-size: 2em;
+    font-weight: bold;
+    
+    
+}
+.navbar ul {
+    padding: 20px 40px;
+    list-style: none;
+    background: rgb(240, 139, 30);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar  a{
+text-decoration: none;
+padding: 10px 30px;
+text-align: center;
+} 
+.social{
+    display: flex;
+    padding: 2px 4px ;
+}
+
+.navbar a:hover{
+    color: rgb(5, 5, 5);
+}
+.background-image{
+    width: 100%;
+    padding-top: 2px;
+}
+.brand{
+    font-size: 3em;
+    padding-left: 10px 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(99, 38, 231) ;
+    border-radius: 6px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.motto:hover{
+    transform: scale(1.1);
+    transition: all ;
+    cursor: pointer;
+}
+.brand:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: black;
+}
+.mission{
+    position: absolute;
+    padding: 120px;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 3em;
+    cursor: pointer;
+
+}
+
+
+.motto{
+    position: absolute;
+    padding: 180px;
+    color: white;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 2em;
+    
+}
+
+.fas {
+    color: rgb(244, 120, 13);  
+    cursor: pointer;
+
+}
+.fas:hover{
+    height: 36px;
+    width:36px;
+    color: black;
+}
+
+.Join-btn{
+    font-family:  serif;
+    position: absolute;
+    font-size: 48px;
+    margin-top: 260px;
+    margin-left: 140px;
+    border-radius: 15px;
+    background: orange;
+   
+}
+.Join-btn:hover{
+    cursor: pointer;
+    color:rgb(248, 245, 245);
+    background-color:black;
+    transition: 1.5s;
+    transform: scale(1.5);
+    transition: all ;
+}
+/*.box{
+
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+    top:800px;
+    display:inline;
+   margin-left: -1300px;
+    background: transparent;
+
+}*/
+.box{
+    display: none;
+}
+.log-in:hover .box{
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    right:40px;
+    top:70px;
+   
+    display:inline;
+
+    background: transparent;
+}
+.btn{
+    font-family:  serif;
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(238, 140, 10);
+    margin-left: 400px;
+    border-radius: 15px;
+    
+}
+.btn:hover{
+    color: rgb(232, 232, 233);
+    cursor: pointer;
+    background-color:rgb(6, 6, 6);
+    transition: 1.5s;
+    transform: scale(1.1);
+    transition: all ;
+}
+.Name{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: white;
+    
+}
+.email{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: white;
+    
+}
+.message{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: white;
+    
+}
+.get-in{
+    color: rgb(67, 7, 123);
+    font-size: 1em;
+    margin-left: 5px;
+    background: orange;
+}
+.get-in:hover{
+    color: rgb(246, 237, 237);
+    cursor: pointer;
+}
+.address{
+    color: rgb(67, 7, 123) ;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 5px;
+    background: orange;
+}
+.address:hover{
+    color: rgb(248, 246, 246);
+    cursor: pointer;
+}
+.telp{
+    font-size: 1em;
+    color: rgb(67, 7, 123) ;
+    font-weight: bold;
+    margin-left: 5px;
+    background: orange;
+}
+.telp:hover{
+    color: rgb(233, 228, 228);
+    cursor: pointer;
+}
+.footer{
+    font-size: 2em;
+    color: violet;
+    background: rgb(240, 139, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer:hover{
+    color: black;
+    cursor: pointer;
+}
+.mobile-link{
+    font-size: 2em;
+    text-decoration: none;
+}
+.mobile-link:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.sub-price{
+    display: none;
+}
+.navbar ul li:hover .sub-price{
+  display: block;
+  position: absolute;
+ 
+  margin-top: 5px;
+  margin-left: 100px;
+  
+}
+.navbar ul li:hover .sub-price ul {
+    display: block;
+    margin: 20px;
+}
+.navbar ul li:hover .sub-price ul li{
+    width: 170px; 
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.navbar ul li:hover .sub-price ul li a:hover{
+    color: black;
+}
+.booking{
+    display: none;
+}
+.navbar ul li:hover .booking {
+    display: block;
+    position: absolute;
+    color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .booking ul {
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .booking ul li{
+    width:225px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.contact{
+    display: none;
+}
+.navbar ul li:hover .contact{
+    display: block;
+    position: absolute;
+    color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .contact ul {
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .contact ul li{
+    width:120px;
+    background: transparent;
+    border-radius: 0;
+    
+}
+.facts{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.facts:hover{
+    cursor: pointer;
+    color: black;
+}
+.more{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.more:hover{
+    cursor: pointer;
+    color: black;
+}
+.articles{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.articles:hover{
+    cursor: pointer;
+    color: black;
+}
+.help{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.help:hover{
+    cursor: pointer;
+    color: black;
+}
+.download{
+    color:rgb(99, 38, 231);
+    align-items: center;
+}
+.download:hover{
+    color: aliceblue;
+}
+.fa-brands {
+    color: black;
+}
+.fa-brands:hover{
+    color: white;
+    transform: scale(1.5);
+}
+.founder{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px; 
+}
+.Design{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;  
+}
+.Design:hover{
+   color: antiquewhite;
+   align-items: center;
+}
+.free-trial{
+    background: orange;
+    padding: 20px 20px;
+    position: absolute;
+    top: -320px;
+    margin-left:-460px;
+    border-radius: 12px;    
+}
+.free-trial:hover{
+    color: antiquewhite;
+    align-items: center;
+    background-color: black;
+    transform: scale(1.1);
+    transition: all ;
+}
